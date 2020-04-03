@@ -18,9 +18,11 @@ require 'includes/dbh.inc.php';
   </ol>
   <div class="carousel-inner myCarousel">
     <div class="carousel-item active">
-      <img src="images/cam_01.jpg" class="d-block w-100" alt="...">
+      <img src="images/mob_1.jpg" class="d-block w-100" alt="...">
     </div>
-    
+    <div class="carousel-item">
+      <img src="images/mob_2.jpg" class="d-block w-100" alt="...">
+    </div>
     
   </div>
   <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
@@ -42,7 +44,7 @@ require 'includes/dbh.inc.php';
 
             <?php
             
-            $sql ="SELECT * FROM camera";
+            $sql ="SELECT * FROM watch";
             $result = mysqli_query($conn,$sql);
             if(mysqli_num_rows($result) > 0)
             {

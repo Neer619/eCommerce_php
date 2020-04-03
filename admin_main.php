@@ -30,12 +30,10 @@ if(!isset($_SESSION['admin']))
 <option value="speaker">Speaker and Headphones</option>
 <option value="watch">Watches</option>
 </select>
-<button type="submit" name="logout">Insert </button>
+<button type="submit" name="insert">Insert </button>
 </form>
 
-<form action="includes/admin_logout.inc.php" method="post">
-<button type="submit" name="logout">Update </button>
-</form>
+
 
 
 
