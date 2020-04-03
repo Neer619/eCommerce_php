@@ -1,0 +1,62 @@
+body{
+background-color: rgb(58, 58, 58) !important;
+
+}
+
+.nav1{
+    margin:0;
+    padding:0;
+    // padding-bottom:2px;
+
+    margin-bottom:2px;
+    background-color: rgb(31, 31, 31);
+
+    .form-control{
+        width:400px !important;
+    }
+    
+}
+
+.nav2{
+    
+    .navbar{
+        background-color: rgb(73, 73, 73) !important;
+        .nav-link{
+            color: rgb(201, 194, 194) !important;
+
+        }
+        padding:0px;
+    }
+}
+
+.myCarousel{
+
+    .carousel-item{
+        height: 350px;
+    }
+
+}
+
+.myModal{
+
+}
+
+//Colors
+.light1{
+    background-color: rgb(155, 154, 154) !important;
+}
+
+.myButton{
+    width:100%;
+    background-color: greenyellow !important;
+    border-radius: 25px !important;
+    font-weight: 400 !important;
+}
+
+
+#footer{
+
+    background-color:black !important;
+    color:white;
+
+}
