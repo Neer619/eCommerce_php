@@ -4,11 +4,11 @@ require 'header.comp.php';
 require 'includes/dbh.inc.php';
 
 ?>
-<link rel="stylesheet" href="../css/index.css">
+<link rel="stylesheet" href="css/index.css">
  <title>Document</title>
 </head>
 <body >
-<?php include_once '../navbar.comp.php' ?>
+<?php include_once 'navbar.comp.php' ?>
 
 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
@@ -18,10 +18,10 @@ require 'includes/dbh.inc.php';
   </ol>
   <div class="carousel-inner myCarousel">
     <div class="carousel-item active">
-      <img src="images/mob_1.jpg" class="d-block w-100" alt="...">
+      <img src="images/lap_01.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="images/mob_2.jpg" class="d-block w-100" alt="...">
+      <img src="images/lap_02.jpg" class="d-block w-100" alt="...">
     </div>
     
   </div>
@@ -85,7 +85,7 @@ require 'includes/dbh.inc.php';
 
 
 <?php
-include_once '../footer.comp.php';
+include_once 'footer.comp.php';
 
 ?>
 
