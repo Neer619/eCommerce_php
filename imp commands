@@ -1,0 +1,33 @@
+create table camera(
+    id int(11) not null PRIMARY KEY AUTO_INCREMENT,
+    photo varchar(300) not null,
+    price int(10) not null,
+    brand varchar(300) not null,
+    model varchar(300) not null,
+    model_num varchar(300) not null,
+    megapixel float(10,5) not null,
+    sensor_type varchar(300) not null,
+    type varchar(300) not null
+    );
+
+
+    create table speaker(
+    id int(11) not null primary key AUTO_INCREMENT,
+    photo varchar(300) not null,
+    brand varchar(300) not null,
+    model_name varchar(300) not null,
+    model_num varchar(300) not null,
+    type varchar(300) not null,
+    wired varchar(300) not null
+    );
+
+    create table watch(
+    id int(11) not null primary key AUTO_INCREMENT,
+    price int(10) not null,
+    brand varchar(300) not null,
+    model_name varchar(300) not null,
+    type varchar(300) not null,
+    dial_color varchar(300) not null,
+    water_res int(1) not null,
+    strap_type varchar(300) not null
+    );
