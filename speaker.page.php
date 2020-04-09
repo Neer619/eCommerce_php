@@ -60,7 +60,7 @@ require 'includes/dbh.inc.php';
                         <h5 class='card-title'>".$prod_name."</h5>
 
                         <h5 class='card-title' >".$price."</h5>
-                        <a href='product-details.page.php?product=mobile&details=".base64_encode(serialize($row))."' class='stretched-link'></a>
+                        <a href='product-details.page.php?product=speaker&details=".base64_encode(serialize($row))."' class='stretched-link'></a>
                     </div>
                     </div>
                     ";
